@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="uiTest1.Page1"
+    x:Class="uiTest1.Page2"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:uiTest1"
@@ -9,9 +9,9 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-        <TextBlock x:Name="pageTitle" Text="Page 1" />
+        <TextBlock x:Name="pageTitle" Text="Page 2" />
 
-        <HyperlinkButton Content="Click to go to page 2"
+        <HyperlinkButton Content="Click to go to page 1" 
                          Click="HyperlinkButton_Click"
                          HorizontalAlignment="Center"/>
     </Grid>
